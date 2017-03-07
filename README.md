@@ -2,4 +2,5 @@
 
 **Date** March 7 2017
 
-A continuous work in progress as we work through the class.
+here's a yes or no guessing game. all the questions are something about myself.
+lets see how well you know me

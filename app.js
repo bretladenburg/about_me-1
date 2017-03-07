@@ -1,55 +1,55 @@
 'use strict';
 
-var question1 = prompt('Is there a greater sport than hockey?')
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  alert('Great minds think alike, Hockey is indeed the greatest sport');
-} else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
-  alert('WHAT! Are you crazy you get to fight people ON ICE');
+var answer1 = prompt('Is Hockey the greatest sport?')
+if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
+  console.log('Great minds think alike, Hockey is indeed the greatest sport');
+} else if (answer1.toLowerCase() === 'no' || answer1.toLowerCase() === 'n') {
+  console.log('WHAT! Are you crazy you get to fight people ON ICE');
 } else {
-  alert('Come on man it does\'t take rocket appliances to answer yes or no');
+  console.log('Come on man it does\'t take rocket appliances to answer yes or no');
 }
 
-var q2 = prompt('')
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  alert('');
-} else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  alert('');
+var answer2 = prompt('Is my favorite color yellow')
+if (answer2.toLowerCase() === 'yes' || answer2.toLowerCase() === 'y') {
+  console.log('I hate to break the news to you but YOU ARE WRONG');
+} else if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n') {
+  console.log('And the survey says.... YOU ARE CORRECT');
 } else {
-  alert('');
+  console.log('maybe it is time to go back to school because that is not a color or an answer');
 }
 
-var q2 = prompt('')
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  alert('');
-} else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  alert('');
+var answer3 = prompt('')
+if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
+  console.log('');
+} else if (answer3.toLowerCase('') === 'no' || answer3.toLowerCase() === 'n') {
+  console.log('');
 } else {
-  alert('');
+  console.log('');
 }
 
-var q2 = prompt('')
+var answer = prompt('')
 if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  alert('');
+  console.log('');
 } else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  alert('');
+  console.log('');
 } else {
-  alert('');
+  console.log('');
 }
 
-var q2 = prompt('')
+var answer = prompt('')
 if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  alert('');
+  console.log('');
 } else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  alert('');
+  console.log('');
 } else {
-  alert('');
+  console.log('');
 }
 
-var q2 = prompt('')
+var answer = prompt('')
 if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  alert('');
+  console.log('');
 } else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  alert('');
+  console.log('');
 } else {
-  alert('');
+  console.log('');
 }
