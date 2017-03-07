@@ -18,38 +18,29 @@ if (answer2.toLowerCase() === 'yes' || answer2.toLowerCase() === 'y') {
   console.log('maybe it is time to go back to school because that is not a color or an answer');
 }
 
-var answer3 = prompt('')
+var answer3 = prompt('Was I born in the 80s?')
 if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
-  console.log('');
-} else if (answer3.toLowerCase('') === 'no' || answer3.toLowerCase() === 'n') {
-  console.log('');
+  console.log('You most certainly are wrong');
+} else if (answer3.toLowerCase() === 'no' || answer3.toLowerCase() === 'n') {
+  console.log('Ding Ding Ding We have a winner');
 } else {
-  console.log('');
+  console.log('... really? Try again but this time please answer correctly');
 }
 
-var answer = prompt('')
+var answer = prompt('Are African swallows non-migratory?')
 if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  console.log('');
-} else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  console.log('');
+  console.log('You are correct, thus the coconut has to be migratory or it could not have gotten here');
+} else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
+  console.log('WRONG');
 } else {
-  console.log('');
+  console.log('for the last time please just do what you are told');
 }
 
-var answer = prompt('')
+var answer = prompt('It is friday night, everyone is out at the bar, do I join them?')
 if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  console.log('');
-} else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  console.log('');
+  console.log('HA, you clearly do not know anything about me');
+} else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
+  console.log('Right answer, friday night that means its time to people watch at Wal-Mart!');
 } else {
-  console.log('');
-}
-
-var answer = prompt('')
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  console.log('');
-} else if (answer.toLowerCase('') === 'no' || answer.toLowerCase() === 'n') {
-  console.log('');
-} else {
-  console.log('');
+  console.log('I tried to polietly tell you to follow the instructions but no you cannot listen or read apparently');
 }
