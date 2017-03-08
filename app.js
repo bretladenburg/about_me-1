@@ -27,19 +27,19 @@ if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
   console.log('... really? Try again but this time please answer correctly');
 }
 
-var answer = prompt('If you do not finish first does that mean that you\'re last?')
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
+var answer4 = prompt('If you do not finish first does that mean that you\'re last?')
+if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
   console.log('You are correct, now who wants to get thrown out of an AppleBee\'s');
-} else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
-  console.log('');
+} else if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
+  console.log('That smell is not the Shake and Bake, no that smell is you crashing and burning because that was the wrong asnwer.');
 } else {
-  console.log('for the last time please just do what you are told');
+  console.log('I mean this with all due respect, and I mean ALL due respect, but next time just do it right.');
 }
 
-var answer = prompt('It is friday night, everyone is out at the bar, do I join them?')
-if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
+var answer5 = prompt('It is friday night, everyone is out at the bar, do I join them?')
+if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
   console.log('HA, you clearly do not know anything about me');
-} else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
+} else if (answer5.toLowerCase() === 'no' || answer5.toLowerCase() === 'n') {
   console.log('Right answer, friday night that means its time to people watch at Wal-Mart!');
 } else {
   console.log('I tried to polietly tell you to follow the instructions but no you cannot listen or read apparently');
