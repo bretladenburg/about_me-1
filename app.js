@@ -27,11 +27,11 @@ if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
   console.log('... really? Try again but this time please answer correctly');
 }
 
-var answer = prompt('Are African swallows non-migratory?')
+var answer = prompt('If you do not finish first does that mean that you\'re last?')
 if (answer.toLowerCase() === 'yes' || answer.toLowerCase() === 'y') {
-  console.log('You are correct, thus the coconut has to be migratory or it could not have gotten here');
+  console.log('You are correct, now who wants to get thrown out of an AppleBee\'s');
 } else if (answer.toLowerCase() === 'no' || answer.toLowerCase() === 'n') {
-  console.log('WRONG');
+  console.log('');
 } else {
   console.log('for the last time please just do what you are told');
 }
