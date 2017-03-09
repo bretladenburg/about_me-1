@@ -1,6 +1,7 @@
 'use strict';
 
 var userName = prompt('what should I call you?');
+var counter = 0;
 console.log('Nice to meet you ' + userName + ' I am Max. I may be the oddest person you will meet.');
 
 function one() {
@@ -9,6 +10,7 @@ function one() {
     var jobAnswerY = 'Hmmm sounds interesting ' + userName + ' I too have worked as a manager at every job I\'ve had, currently at dominos  pizza I went back to just deliverying so i could go to school';
     console.log(jobAnswerY);
     alert(jobAnswerY);
+    counter++;
   } else if (jobQ.toLowerCase() === 'no' || jobQ.toLowerCase() === 'n') {
     var jobAnswerN = 'Well somebody has to do the grunt work. I\'ve got people to do that for me';
     console.log(jobAnswerN);
@@ -27,6 +29,7 @@ function two() {
     var sportAnswerY = 'You and me can be friends then ' + userName + ' hockey is my favorite sport by far.';
     console.log(sportsAnswerY);
     alert(sportsAnswerY);
+    counter++;
   } else if (sportsQ.toLowerCase() === 'no' || sportsQ.toLowerCase() === 'n') {
     var sportsAnswerN = 'You are not a fan of hockey? ' + userName + ' lets drop the gloves and fight then.';
     console.log(sportsAnswerN);
@@ -45,6 +48,7 @@ function three() {
     var homeAnswerY = 'Correct! No other place I\'d rather be';
     console.log(homeAnswerY);
     alert(homeAnswerY);
+    counter++;
   } else if (homeTownQ.toLowerCase() === 'no' || homeTownQ.toLowerCase() === 'n') {
     var homeAnswerN = 'Ok ' + userName + ' no easy way to say this but YOU ARE WRONG!';
     console.log(homeAnswerN);
@@ -58,15 +62,16 @@ function three() {
 three();
 
 function four() {
-  var movieQ = prompt('If somebody was interogating you for what my two favorite movies are you would of course tell them that Max is a   huge fan of Romance and anything with Mathew McMonaughey in it  right');
+  var movieQ = prompt('If somebody was interogating you for what my two favorite movies are you would of course tell them that Max is a huge fan of Romance and anything with Mathew McMonaughey in it right');
   if (movieQ.toLowerCase() === 'yes' || movieQ.toLowerCase() === 'y') {
     var movieAnswerY = userName + ' ' + userName + ' come on bud, you, me, and that tree out there all know that is the wrong answer';
     console.log(movieAnswerY);
     alert(movieAnswerY);
-    var movieAnswerN = 'The dark side is strong with you young apprentice';
   } else if (movieQ.toLowerCase() === 'no' || movieQ.toLowerCase() === 'n') {
+    var movieAnswerN = 'The dark side is strong with you young apprentice';
     console.log(movieAnswerN);
     alert(movieAnswerN);
+    counter++;
   } else {
     var movieAnswerFail = 'There once was a man from peru, who dreamed he was eating his shoe, when he woke with a fright in the middle of  the night he KNEW HOW TO READ NOW WHY CAN\'T YOU';
     console.log(movieAnswerFail);
@@ -81,6 +86,7 @@ function five() {
     var walMartY = 'WAY TO GO' + userName + ' I am so proud of you. Here\'s a gold star for all your hard work';
     console.log(walMartY);
     alert(walMartY);
+    counter++;
   } else if (wallyWorldQ.toLowerCase() === 'no' || wallyWorldQ.toLowerCase() === 'n') {
     var walMartN = 'I am literally speachless ' + userName + ' it doesn\'t take rocket science to know how much I love Wal-Mart';
     console.log(walMartN);
@@ -107,6 +113,7 @@ function six() {
     } else if (parseInt(userAnswer) === myNum) {
       alert('congrats you got it right, here\'s a trophy!');
       console.log(userAnswer);
+      counter++;
       break;
     }
     if (i === 3) {
@@ -117,9 +124,20 @@ function six() {
 six();
 
 function seven(){
-  for (i = 0; i <= 5; i++) {
-    alert('guess ' + i + ' out of 5');
-    continue;
-  }
-};
+  for (var i = 0; i < 6; i++) {
+    var movie = prompt('can you name any of my favorite movies?');
+    var movieArr = ['spinal tap' , 'never been thawed' , 'the delicate art of parking' , 'burn after reading' , 'in bruges'];
+    if (movieArr.includes(movie.toLowerCase())){
+      alert('way to go champ..');
+      console.log(typeof movie);
+      counter++;
+      break;
+    } else {
+      alert('guess again bro!');
+      console.log(movie);
+    }
+  };
+}
 seven();
+
+alert('congrats, you got ' + counter + ' correct out of 7!');
