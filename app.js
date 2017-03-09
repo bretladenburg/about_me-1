@@ -47,14 +47,17 @@ if (homeTownQ.toLowerCase() === 'yes' || homeTownQ.toLowerCase() === 'y') {
   alert(homeAnswerFail)
 }
 
-var answer4 = prompt('If you do not finish first does that mean that you\'re last?')
-if (answer4.toLowerCase() === 'yes' || answer4.toLowerCase() === 'y') {
-  console.log('You are correct, now who wants to get thrown out of an AppleBee\'s');
-  alert('You are correct, now who wants to get thrown out of an AppleBee\'s');
-} else if (answer4.toLowerCase() === 'no' || answer4.toLowerCase() === 'n') {
-  console.log('That smell is not the Shake and Bake, no that smell is you crashing and burning because that was the wrong asnwer.');
-  alert('That smell is not the Shake and Bake, no that smell is you crashing and burning because that was the wrong asnwer.')
+var movieQ = prompt('If somebody was interogating you for what my two favorite movies are you would of course tell them that Max is a huge fan of Romance and anything with Mathew McMonaughey in it  right>')
+if (movieQ.toLowerCase() === 'yes' || movieQ.toLowerCase() === 'y') {
+  var movieAnswerY = userName + ' ' + userName ' come on bud, you, me, and that tree out there all know that is the wrong answer';
+  console.log(movieAnswerY);
+  alert(movieAnswerY);
+  var movieAnswerN = 'The dark side is strong with you young apprentice'
+} else if (movieQ.toLowerCase() === 'no' || movieQ.toLowerCase() === 'n') {
+  console.log(movieAnswerN);
+  alert(movieAnswerN)
 } else {
+  var movieAnswerFail
   console.log('I mean this with all due respect, and I mean ALL due respect, but next time just do it right.');
   alert('I mean this with all due respect, and I mean ALL due respect, but next time just do it right.');
 }
