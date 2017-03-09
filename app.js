@@ -62,15 +62,29 @@ if (movieQ.toLowerCase() === 'yes' || movieQ.toLowerCase() === 'y') {
   alert(movieAnswerFail);
 }
 
-var cashMeQ = prompt('Imagine that I am on Doctore phil, whould one be able to \'Cash me outside\'?')
-if (cashMeQ.toLowerCase() === 'yes' || cashMeQ.toLowerCase() === 'y') {
-  var cashMeY
-  console.log('HA, you clearly do not know anything about me');
-  alert('HA, you clearly do not know anything about me')
-} else if (cashMeQ.toLowerCase() === 'no' || cashMeQ.toLowerCase() === 'n') {
-  console.log('Right answer, friday night that means its time to people watch at Wal-Mart!');
-  alert('Right answer, friday night that means its time to people watch at Wal-Mart!');
+var wallyWorldQ = prompt('This is probably the easiest of all the questions ' + userName + ' please don\'t. Would you say that WAL-MART is my favorite store?')
+if (wallyWorldQ.toLowerCase() === 'yes' || wallyWorldQ.toLowerCase() === 'y') {
+  var walMartY = 'WAY TO GO' + userName + ' I am so proud of you. Here\'s a gold star for all your hard work';
+  console.log(walMartY);
+  alert(walMartY)
+} else if (wallyWorldQ.toLowerCase() === 'no' || wallyWorldQ.toLowerCase() === 'n') {
+  var walMartN = 'I am literally speachless ' + userName + ' it doesn\'t take rocket science to know how much I love Wal-Mart'
+  console.log(walMartN);
+  alert(walMartN);
 } else {
-  console.log('I tried to polietly tell you to follow the instructions but no you cannot listen or read apparently');
-  alert('I tried to polietly tell you to follow the instructions but no you cannot listen or read apparently');
+  var walMartFail = 'I have been very patient with you and polietly tell you to follow directions ' + userName + ' but no apparently you cannot listen or read.'
+  console.log(walMartFail);
+  alert(walMartFail);
 }
+var = numberGame = prompt(userName + ' COME ON DOWN!! *que price is right music* Time to play GUESS THAT NUMBER! Pick a number between 0 and 10. you have five attempts');
+
+var userAnswer;
+if (userAnswer === 3) {
+  alert('you guessed it')
+} else {
+  alert('try again')
+};
+var endGame = for (i = 0; i <= 5; i++) {
+  alert('guess ' + i + ' out of 5');
+};
+continue;
