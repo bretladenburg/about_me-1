@@ -57,16 +57,17 @@ if (movieQ.toLowerCase() === 'yes' || movieQ.toLowerCase() === 'y') {
   console.log(movieAnswerN);
   alert(movieAnswerN)
 } else {
-  var movieAnswerFail
-  console.log('I mean this with all due respect, and I mean ALL due respect, but next time just do it right.');
-  alert('I mean this with all due respect, and I mean ALL due respect, but next time just do it right.');
+  var movieAnswerFail = 'There once was a man from peru, who dreamed he was eating his shoe, when he woke with a fright in the middle of the night he KNEW HOW TO READ NOW WHY CAN\'T YOU';
+  console.log(movieAnswerFail);
+  alert(movieAnswerFail);
 }
 
-var answer5 = prompt('It is friday night, everyone is out at the bar, do I join them?')
-if (answer5.toLowerCase() === 'yes' || answer5.toLowerCase() === 'y') {
+var cashMeQ = prompt('Imagine that I am on Doctore phil, whould one be able to \'Cash me outside\'?')
+if (cashMeQ.toLowerCase() === 'yes' || cashMeQ.toLowerCase() === 'y') {
+  var cashMeY
   console.log('HA, you clearly do not know anything about me');
   alert('HA, you clearly do not know anything about me')
-} else if (answer5.toLowerCase() === 'no' || answer5.toLowerCase() === 'n') {
+} else if (cashMeQ.toLowerCase() === 'no' || cashMeQ.toLowerCase() === 'n') {
   console.log('Right answer, friday night that means its time to people watch at Wal-Mart!');
   alert('Right answer, friday night that means its time to people watch at Wal-Mart!');
 } else {
