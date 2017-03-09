@@ -1,27 +1,35 @@
 'use strict';
 
-var answer1 = prompt('Is Hockey the greatest sport?')
-if (answer1.toLowerCase() === 'yes' || answer1.toLowerCase() === 'y') {
-  console.log('Great minds think alike, Hockey is indeed the greatest sport');
-  alert('Great minds think alike, Hockey is indeed the greatest sport');
-} else if (answer1.toLowerCase() === 'no' || answer1.toLowerCase() === 'n') {
-  console.log('WHAT! Are you crazy you get to fight people ON ICE');
-  alert('WHAT! Are you crazy you get to fight people ON ICE');
+var userName = prompt('what should I call you?');
+console.log('Nice to meet you ' + userName + ' I am Max. I may be the oddest person you will meet.')
+var jobQ = prompt('So ' + userName + ' are you in management at your job?')
+if (jobQ.toLowerCase() === 'yes' || jobQ.toLowerCase() === 'y') {
+  var jobAnswerY = 'Hmmm sounds interesting ' + userName + ' I too have worked as a manager at every job I\'ve had, currently at dominos pizza I went back to just deliverying so i could go to school'
+  console.log(jobAnswerY);
+  alert(jobAnswerY);
+} else if (jobQ.toLowerCase() === 'no' || jobQ.toLowerCase() === 'n') {
+  var jobAnswerN = 'Well somebody has to do the grunt work. I\'ve got people to do that for me';
+  console.log(jobAnswerN);
+  alert(jobAnswerN);
 } else {
-  console.log('Come on man it does\'t take rocket appliances to answer yes or no');
-  alert('Come on man it does\'t take rocket appliances to answer yes or no');
+  var jobAnswerFail = 'So...uh...yeah if you could go ahead and come in on saturday that\'d be great.'
+  console.log(jobAnswerFail);
+  alert(jobAnswerFail);
 }
 
-var answer2 = prompt('Is my favorite color yellow')
-if (answer2.toLowerCase() === 'yes' || answer2.toLowerCase() === 'y') {
-  console.log('I hate to break the news to you but YOU ARE WRONG');
-  alert('I hate to break the news to you but YOU ARE WRONG')
-} else if (answer2.toLowerCase() === 'no' || answer2.toLowerCase() === 'n') {
-  console.log('And the survey says.... YOU ARE CORRECT');
-  alert('And the survey says.... YOU ARE CORRECT')
+var sportsQ = prompt('NOow ' + userName + ' are you a hockey fan?')
+if (sportsQ.toLowerCase() === 'yes' || sportsQ.toLowerCase() === 'y') {
+  var sportAnswerY = 'You and me can be friends then ' + userName + ' hockey is my favorite sport by far.';
+  console.log(sportsAnswerY);
+  alert(sportsAnswerY)
+} else if (sportsQ.toLowerCase() === 'no' || sportsQ.toLowerCase() === 'n') {
+  var sportsAnswerN = 'You are not a fan of hockey?' + userName + ' lets drop the gloves and fight then.';
+  console.log(sportsAnswerN);
+  alert(sportsAnswerN)
 } else {
-  console.log('maybe it is time to go back to school because that is not a color or an answer');
-  alert('maybe it is time to go back to school because that is not a color or an answer')
+  var sportsAnswerFail = 'please take a second look and notice that you did not get close to answering that correcrtly';
+  console.log(sportsAnswerFail);
+  alert(sportsAnswerFail)
 }
 
 var answer3 = prompt('Was I born in the 80s?')
