@@ -32,16 +32,19 @@ if (sportsQ.toLowerCase() === 'yes' || sportsQ.toLowerCase() === 'y') {
   alert(sportsAnswerFail)
 }
 
-var answer3 = prompt('Was I born in the 80s?')
-if (answer3.toLowerCase() === 'yes' || answer3.toLowerCase() === 'y') {
-  console.log('You most certainly are wrong');
-  alert('You most certainly are wrong')
-} else if (answer3.toLowerCase() === 'no' || answer3.toLowerCase() === 'n') {
-  console.log('Ding Ding Ding We have a winner');
-  alert('Ding Ding Ding We have a winner')
+var homeTownQ = prompt('Ok ' + userName + ' hope you are ready for this curveball about to come at you. Would you consider me a native to seattle area?'):
+if (homeTownQ.toLowerCase() === 'yes' || homeTownQ.toLowerCase() === 'y') {
+  var homeAnswerY = 'Correct! No other place I\'d rather be;'
+  console.log(homeAnswerY);
+  alert(homeAnswerY)
+} else if (homeTownQ.toLowerCase() === 'no' || homeTownQ.toLowerCase() === 'n') {
+  var homeAnswerN = 'Ok ' + userName + ' no easy way to say this but YOU ARE WRONG!'
+  console.log(homeAnswerN);
+  alert(homeAnswerN)
 } else {
-  console.log('... really? Try again but this time please answer correctly');
-  alert('... really? Try again but this time please answer correctly')
+  var homeAnswerFail = 'Are you trying to upset me or do you just hate to pay attention to what you are ussuppose to'
+  console.log(homeAnswerFail);
+  alert(homeAnswerFail)
 }
 
 var answer4 = prompt('If you do not finish first does that mean that you\'re last?')
