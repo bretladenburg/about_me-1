@@ -1,41 +1,107 @@
 body {
   background-color: black;
   text-align: center;
-  color: gold;
+  color: #D8A916;
+  background-image: url();
 }
 
 h1 {
 
 box-shadow:
-    12px 12px 17px 0px gold,
+    12px 12px 17px 0px #D8A916,
     -10px -10px 10px 0px gold,
     10px 10px 19px 0px white;
   padding: 10px;
   margin: 50px;
   border-style: ridge;
-  font-size: 55px;
+  font-size: 100px;
   border-color: gray;
   border-width: 10px;
+  color:
 }
 
 h2 {
   box-shadow:
-  7px 7px 9px 0px gold,
+  7px 7px 9px 0px #D8A916,
   -7px -7px 9px 0px gold,
   7px 7px 9px 0px white;
   padding: 17px;
-  margin: 100px;
+  margin: 100px 150px;
   border-style: ridge;
   border-width: 10px;
   border-color: gray;
+  font-size: 30px;
+  color:
+}
+h3 {
+  font-size: 22px;
+  color: #D8A916;
+  text-shadow:
+    3px 3px 5px #C70000,
+    -3px -3px 5px #C70000;
+}
+ul {
+  list-style-position: outside;
+}
+ol {
+  list-style-position: inside;
 }
 
-.about {
+.jobHistory {
   padding: 15px;
-  margin: 100px;
+  margin: 100px 400px 100px 400px;
   border: 5px solid grey;
-  color: gold;
-  font-size: 35px;
-  border-color: white;
+  color: #C1B578;
+  font-size: 18px;
+  border-width: 5px;
+}
+#work {
+  padding: 10px 75px 10px 75px;
+}
+.SportsTeams {
+  background-image: url("http://content.sportslogos.net/logos/1/24/full/36ai6de8ef0svi6hiugcgpwjl.png"), url("http://content.sportslogos.net/logos/1/7/full/3410_chicago_blackhawks-primary-1987.png");
+  background-position: left bottom, right bottom;
+  background-size: 100px 100px, 100px 100px;
+  background-repeat: no-repeat, no-repeat;
+  padding: 15px;
+  margin: 100px 400px 100px 400px;
+  border: 5px solid grey;
+  color: #C1B578;
+  font-size: 18px;
+  border-width: 5px;
+  list-style-position: inside;
+}
+.Homestead {
+  padding: 15px;
+  margin: 100px 400px 100px 400px;
+  border: 5px solid grey;
+  color: #C1B578;
+  font-size: 18px;
+  border-width: 5px;
+}
+.FavMovie {
+  padding: 15px;
+  margin: 100px 400px 100px 400px;;
+  border: 5px solid grey;
+  color: #C1B578;
+  font-size: 18px;
+  border-width: 5px;
+  list-style: none;
+}
+#title {
+  list-style-position: inside;
+  list-style-type: lower-greek;
+}
+#films {
+  margin: 20px 150px 20px 200px;
+  padding-left: 10px;
+  text-align: left;
+}
+.funFacts {
+  padding: 15px;
+  margin: 100px 400px 100px 400px;
+  border: 5px solid grey;
+  color: #C1B578;
+  font-size: 18px;
   border-width: 5px;
 }

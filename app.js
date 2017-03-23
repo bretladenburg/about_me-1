@@ -103,7 +103,7 @@ function six() {
 
   for (var i = 0; i < 4; i++) {
     var myNum = 7;
-    var userAnswer = prompt(userName + ' COME ON DOWN!! *que price is right music* Time to play GUESS THAT NUMBER! Pick a number between 0  and 10. you have five attempts');
+    var userAnswer = prompt(userName + 'COME ON DOWN!! *que price is right music* Time to play GUESS THAT NUMBER! Pick a number between 0  and 10. you have five attempts');
     if (userAnswer < myNum) {
       alert('guess again sucker, you\'re too low!');
       console.log(userAnswer);
